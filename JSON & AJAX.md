@@ -24,7 +24,6 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
 </root>
 
 #### Example:
-<pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
   <date>2015-09-01</date>
@@ -56,8 +55,8 @@ Specifies the type of request
 method: the type of request: GET or POST
 url: the server (file) location
 async: true (asynchronous) or false (synchronous)
-send()----->Sends the request to the server (used for GET)
-send(string)----->Sends the request to the server (used for POST)
+send(): Sends the request to the server (used for GET)
+send(string): Sends the request to the server (used for POST)
 
 #### Example1:
 //using GET method
