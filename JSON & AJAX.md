@@ -17,13 +17,15 @@ XML stands for eXtensible Markup Language.It was designed to store and transport
 XML was designed to carry data - with focus on what data is,But HTML was designed to display data - with focus on how data looks and XML tags are not predefined like HTML tags.
 
 #### Syntax:
+<pre>
 <root>
   <child>
     <subchild>.....</subchild>
   </child>
 </root>
- 
+ </pre>
 #### Example:
+<pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
   <date>2015-09-01</date>
@@ -32,13 +34,15 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
   <from>Jani</from>
   <body>Don't forget me this weekend!</body>
 </note>
-
+</pre>
 #### Output:
+<pre>
 Note
 To: Tove
 From: Jani
 Date: 2015-09-01 08:30
 Don't forget me this weekend!
+</pre>
 
 ## AJAX,Http Request and XML Http Request
 
