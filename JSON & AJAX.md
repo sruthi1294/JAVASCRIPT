@@ -55,8 +55,8 @@ AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for cre
 To send a request to a server, we use the open() and send() methods of the XMLHttpRequest object.
 #### Syntax:
 <pre>
-open(method, url, async)
-Specifies the type of request
+open(method, url, async) Specifies the type of request
+#### Explanation:
 method: the type of request: GET or POST
 url: the server (file) location
 async: true (asynchronous) or false (synchronous)
@@ -87,16 +87,17 @@ xhttp.send("fname=Henry&lname=Ford");
 </pre>
 #### Explanation:
 The file can be any kind of file, like .txt and .xml, or server scripting files like .asp and .php(which can perform actions on the server before sending the response back).
-<pre>
+
 Asynchronous(true): JavaScript does not have to wait for the server response,execute other scripts while waiting for server response and deal with the response after the response is ready.
 
 Synchronous(false):Since the code will wait for server completion, there is no need for an onreadystatechange function
-
+<pre>
 setRequestHeader(header, value)
 Adds HTTP headers to the request
 header: specifies the header name
 value: specifies the header value
 </pre>
+
 #### GET or POST:
 GET is simpler and faster than POST
 However, always use POST requests when:
