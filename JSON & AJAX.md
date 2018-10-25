@@ -16,7 +16,7 @@ Square brackets hold arrays,Eg:[ "Ford", "BMW", "Fiat" ]
 XML stands for eXtensible Markup Language.It was designed to store and transport data and was designed to be self-descriptive.It is a W3C Recommendation.
 XML was designed to carry data - with focus on what data is,But HTML was designed to display data - with focus on how data looks and XML tags are not predefined like HTML tags.
 
-#### Syntax:
+Syntax:
 <pre>
 <root>
   <child>
@@ -24,7 +24,7 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
   </child>
 </root>
  </pre>
-#### Example:
+Example:
 <pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
@@ -35,7 +35,7 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
   <body>Don't forget me this weekend!</body>
 </note>
 </pre>
-#### Output:
+Output:
 <pre>
 Note
 To: Tove
