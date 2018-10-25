@@ -1,13 +1,13 @@
 ## Datatypes 
 The latest ECMAScript standard defines seven data types:
-I)String
-II)Number
-III)Boolean
-IV)Array
-V)Object 
-VI) Undefined 
-VII)Null
-VIII)Symbol (new in ECMAScript 6) 
+#### String
+#### Number
+#### Boolean
+#### Array
+#### Object 
+#### Undefined 
+#### Null
+#### Symbol (new in ECMAScript 6) 
 
 ### Strings:
 A string (or a text string) is a series of characters like "Sruthi Nimmu".
