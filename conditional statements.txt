@@ -1,6 +1,5 @@
 
-### Q. What are Conditional Statements in JavaScript?
-### Ans:
+### What are Conditional Statements in JavaScript?
 Conditional statements are used to decide the flow of execution based on different conditions. 
 If a condition is true, you can perform one action and if the condition is false, you can perform another action.
 
