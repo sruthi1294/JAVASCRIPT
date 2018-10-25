@@ -24,6 +24,7 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
 </root>
 
 #### Example:
+<pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
   <date>2015-09-01</date>
@@ -32,13 +33,15 @@ XML was designed to carry data - with focus on what data is,But HTML was designe
   <from>Jani</from>
   <body>Don't forget me this weekend!</body>
 </note>
-
+</pre>
 #### Output:
+<pre>
 Note
 To: Tove
 From: Jani
 Date: 2015-09-01 08:30
 Don't forget me this weekend!
+</pre>
 
 ## AJAX,Http Request and XML Http Request
 
@@ -48,8 +51,10 @@ AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for cre
 2.Update a web page without reloading the page
 3.Send data to a web server - in the background
 
-### AJAX Http Request:To send a request to a server, we use the open() and send() methods of the XMLHttpRequest object.
+### AJAX Http Request:
+To send a request to a server, we use the open() and send() methods of the XMLHttpRequest object.
 #### Syntax:
+<pre>
 open(method, url, async)
 Specifies the type of request
 method: the type of request: GET or POST
@@ -57,8 +62,9 @@ url: the server (file) location
 async: true (asynchronous) or false (synchronous)
 send(): Sends the request to the server (used for GET)
 send(string): Sends the request to the server (used for POST)
-
+</pre>
 #### Example1:
+<pre>
 //using GET method
 xhttp.open("GET", "demo_get.asp", true); 
 xhttp.send();
@@ -78,10 +84,10 @@ xhttp.open("POST", "ajax_test.asp", true);
 xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
 //Specify the data you want to send in the send() method
 xhttp.send("fname=Henry&lname=Ford"); 
-
+</pre>
 #### Explanation:
 The file can be any kind of file, like .txt and .xml, or server scripting files like .asp and .php(which can perform actions on the server before sending the response back).
-
+<pre>
 Asynchronous(true): JavaScript does not have to wait for the server response,execute other scripts while waiting for server response and deal with the response after the response is ready.
 
 Synchronous(false):Since the code will wait for server completion, there is no need for an onreadystatechange function
@@ -90,13 +96,13 @@ setRequestHeader(header, value)
 Adds HTTP headers to the request
 header: specifies the header name
 value: specifies the header value
-
+</pre>
 #### GET or POST:
 GET is simpler and faster than POST
 However, always use POST requests when:
-I)update a file or database on the server.
-II)Sending a large amount of data to the server (POST has no size limitations).
-III)Sending user input (which can contain unknown characters), POST is more robust and secure than GET.
+1.update a file or database on the server.
+2.Sending a large amount of data to the server (POST has no size limitations).
+3.Sending user input (which can contain unknown characters), POST is more robust and secure than GET.
 
 ### XML Http Request:
 The XMLHttpRequest object can be used to exchange data with a web server behind the scenes. This means that it is possible to update parts of a web page, without reloading the whole page.
