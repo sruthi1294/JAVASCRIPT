@@ -16,15 +16,14 @@ Square brackets hold arrays,Eg:[ "Ford", "BMW", "Fiat" ]
 XML stands for eXtensible Markup Language.It was designed to store and transport data and was designed to be self-descriptive.It is a W3C Recommendation.
 XML was designed to carry data - with focus on what data is,But HTML was designed to display data - with focus on how data looks and XML tags are not predefined like HTML tags.
 
-Syntax:
-<pre>
+#### Syntax:
 <root>
   <child>
     <subchild>.....</subchild>
   </child>
 </root>
- </pre>
-Example:
+
+#### Example:
 <pre>
 <?xml version="1.0" encoding="UTF-8"?>
 <note>
@@ -34,15 +33,13 @@ Example:
   <from>Jani</from>
   <body>Don't forget me this weekend!</body>
 </note>
-</pre>
-Output:
-<pre>
+
+#### Output:
 Note
 To: Tove
 From: Jani
 Date: 2015-09-01 08:30
 Don't forget me this weekend!
-</pre>
 
 ## AJAX,Http Request and XML Http Request
 
@@ -54,27 +51,34 @@ AJAX stands for Asynchronous JavaScript and XML. AJAX is a new technique for cre
 
 ### AJAX Http Request:To send a request to a server, we use the open() and send() methods of the XMLHttpRequest object.
 #### Syntax:
-open(method, url, async)----->Specifies the type of request
-			      method: the type of request: GET or POST
-                              url: the server (file) location
-                              async: true (asynchronous) or false (synchronous)
+open(method, url, async)
+Specifies the type of request
+method: the type of request: GET or POST
+url: the server (file) location
+async: true (asynchronous) or false (synchronous)
 send()----->Sends the request to the server (used for GET)
 send(string)----->Sends the request to the server (used for POST)
 
 #### Example1:
-xhttp.open("GET", "demo_get.asp", true); //using GET method
+//using GET method
+xhttp.open("GET", "demo_get.asp", true); 
 xhttp.send();
 OR
-xhttp.open("GET", "demo_get2.asp?fname=Henry&lname=Ford", true);//using GET method add the information to the URL
+//using GET method add the information to the URL
+xhttp.open("GET", "demo_get2.asp?fname=Henry&lname=Ford", true);
 xhttp.send();
 
 #### Example2:
-xhttp.open("POST", "demo_post.asp", true); //using POST method
+//using POST method
+xhttp.open("POST", "demo_post.asp", true); 
 xhttp.send();
 OR
-xhttp.open("POST", "ajax_test.asp", true); //using POST method
-xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); //add an HTTP header with setRequestHeader()
-xhttp.send("fname=Henry&lname=Ford"); //Specify the data you want to send in the send() method
+ //using POST method
+xhttp.open("POST", "ajax_test.asp", true);
+//add an HTTP header with setRequestHeader()
+xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); 
+//Specify the data you want to send in the send() method
+xhttp.send("fname=Henry&lname=Ford"); 
 
 #### Explanation:
 The file can be any kind of file, like .txt and .xml, or server scripting files like .asp and .php(which can perform actions on the server before sending the response back).
@@ -83,9 +87,10 @@ Asynchronous(true): JavaScript does not have to wait for the server response,exe
 
 Synchronous(false):Since the code will wait for server completion, there is no need for an onreadystatechange function
 
-setRequestHeader(header, value)----->Adds HTTP headers to the request
-                                     header: specifies the header name
-                                     value: specifies the header value
+setRequestHeader(header, value)
+Adds HTTP headers to the request
+header: specifies the header name
+value: specifies the header value
 
 #### GET or POST:
 GET is simpler and faster than POST
