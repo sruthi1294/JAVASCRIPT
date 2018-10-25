@@ -92,8 +92,7 @@ Asynchronous(true): JavaScript does not have to wait for the server response,exe
 
 Synchronous(false):Since the code will wait for server completion, there is no need for an onreadystatechange function
 <pre>
-setRequestHeader(header, value)
-Adds HTTP headers to the request
+setRequestHeader(header, value) Adds HTTP headers to the request
 header: specifies the header name
 value: specifies the header value
 </pre>
