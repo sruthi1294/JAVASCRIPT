@@ -1,13 +1,13 @@
 ## Array Methods
  
-### 1.concat() Method:
+### concat() Method:
 The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.
 
 #### Syntax:
 ```
 array1.concat(array2, array3, ..., arrayX)
 ```
-### 2.copyWithin() Method:
+### copyWithin() Method:
 The copyWithin() method copies array elements within the array, to and from specified positions.
 
 #### Syntax:
