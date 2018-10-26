@@ -167,3 +167,66 @@ array.push(item1, item2, ..., itemX)
 - The reduce() method executes a provided function for each value of the array (from left-to-right).
 - The return value of the function is stored in an accumulator (result/total).
 
+#### Syntax:
+```
+array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+```
+
+### Array reduceRight() Method:
+- The reduceRight() method reduces the array to a single value.
+- The reduceRight() method executes a provided function for each value of the array (from right-to-left).
+- The return value of the function is stored in an accumulator (result/total).
+
+#### Syntax
+```
+ array.reduceRight(function(total, currentValue, currentIndex, arr), initialValue)
+```
+
+### Array reverse() Method:
+The reverse() method reverses the order of the elements in an array.
+
+#### Syntax
+```
+array.reverse()
+```
+
+### Array shift() Method:
+The shift() method removes the first item of an array.
+
+#### Syntax
+```
+array.shift()
+```
+
+#### Array slice() Method:
+- The slice() method returns the selected elements in an array, as a new array object.
+- The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
+
+#### Syntax
+```
+array.slice(start, end)
+```
+
+#### Array some() Method:
+ The some() method checks if any of the elements in an array pass a test (provided as a function).
+ The some() method executes the function once for each element present in the array:
+ -  If it finds an array element where the function returns a true value, some() returns true (and does not check the remaining    values)
+ -  Otherwise it returns false.
+
+ #### Syntax
+ ```
+ array.some(function(currentValue, index, arr), thisValue)
+ ```
+ 
+ #### Array sort() Method:
+ 
+ 
+  
+
+
+
+
+
+
+
+
