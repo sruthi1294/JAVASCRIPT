@@ -198,7 +198,7 @@ The shift() method removes the first item of an array.
 array.shift()
 ```
 
-#### Array slice() Method:
+### Array slice() Method:
 - The slice() method returns the selected elements in an array, as a new array object.
 - The slice() method selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
 
@@ -207,7 +207,7 @@ array.shift()
 array.slice(start, end)
 ```
 
-#### Array some() Method:
+### Array some() Method:
  The some() method checks if any of the elements in an array pass a test (provided as a function).
  The some() method executes the function once for each element present in the array:
  -  If it finds an array element where the function returns a true value, some() returns true (and does not check the remaining    values)
@@ -218,8 +218,49 @@ array.slice(start, end)
  array.some(function(currentValue, index, arr), thisValue)
  ```
  
- #### Array sort() Method:
+ ### Array sort() Method:
+ - The sort() method sorts the items of an array.
+ - The sort order can be either alphabetic or numeric, and either ascending (up) or descending (down).
+  By default, the sort() method sorts the values as strings in alphabetical and ascending order.
+  
+ #### Syntax
+  ```
+   array.sort(compareFunction)
+   ```
+ ### Array splice() Method:
+  The splice() method adds/removes items to/from an array, and returns the removed item(s).
+  
+ #### Syntax
+  ```
+   array.splice(index, howmany, item1, ....., itemX)
+   ```
+   
+ ### Array toString() Method:
+  The toString() method converts an array into a String and returns the result.
+  
+ #### Syntax
+ ```
+ array.toString()
+ ```
  
+ ### Array unshift() Method:
+ The unshift() method adds new items to the beginning of an array, and returns the new length.
+ 
+ #### Syntax
+ ```
+ array.unshift(item1, item2, ..., itemX)
+ ```
+ 
+ ### Array valueOf() Method:
+ - The valueOf() method returns the array.
+ - This method is the default method of the array object. Array.valueOf() will return the same as Array.
+ 
+#### Syntax
+```
+array.valueOf()
+```
+
+
  
   
 
