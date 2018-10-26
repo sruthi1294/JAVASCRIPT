@@ -1,9 +1,7 @@
-<script>
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo").innerHTML = fruits;
 
 function myFunction() {
-    fruits.shift();
+    fruits.reverse();
     document.getElementById("demo").innerHTML = fruits;
 }
-</script>
