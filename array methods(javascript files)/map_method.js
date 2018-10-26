@@ -1,7 +1,8 @@
 
-var plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+var numbers = [4, 9, 16, 25];
 
-document.write(plants.pop() +"<br/ >");
-document.write((plants) + "<br/ >");
-plants.pop();
-document.write(plants);
+function myFunction() 
+{
+    x = document.getElementById("demo")
+    x.innerHTML = numbers.map(Math.sqrt);
+}
