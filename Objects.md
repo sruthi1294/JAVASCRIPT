@@ -28,3 +28,8 @@ var objectname=new Object();
 
 Here, we need to create function with arguments. Each argument value can be assigned in the current object by using this keyword.
 This keyword refers to the current object.
+
+#### Syntax:
+````
+this
+```
