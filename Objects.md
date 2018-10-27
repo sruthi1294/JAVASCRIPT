@@ -12,13 +12,17 @@ Creating Objects in JavaScript,There are 3 ways to create  objects:
 By using an object literal ,we can define and create an object in one statement.
 
 #### Syntax
+```
 object={property1:value1,property2:value2.....propertyN:valueN} 
+```
 
 ### By creating instance of object:
 Here new keyword, is used to create a object.
 
 #### Syntax:
+```
 var objectname=new Object(); 
+```
 
 ### By using an Object constructor:
 
